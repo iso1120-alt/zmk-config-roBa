@@ -116,7 +116,7 @@
 &trans           &trans       &trans             &trans      &trans       &trans                       &trans   &trans                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&encoder_scroll SCRL_UP SCRL_DOWN>; 
         };
 
         ARROW {
@@ -138,7 +138,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&encoder_scroll SCRL_UP SCRL_DOWN>;
         };
 
         SCROLL {
